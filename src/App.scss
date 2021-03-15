@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+  background-color: #c27fdd;
+  margin: 0;
+}
+
+.error {
+  color: tomato;
+  font-size: 10px;
+}
+
+#category {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .category-name {
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+
+    h4 {
+      text-align: center;
+    }
+  }
+
+  a {
+    padding-right: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+
+    &:hover {
+      color: tomato;
+    }
+  }
+}
+
+/*--- Joke page --*/
+.joke-page {
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .joke {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .joke-name {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+      width: 600px;
+      max-width: 100%;
+      text-align: center;
+
+      button {
+        background-color: tomato;
+        border-radius: 10px;
+        padding: 12px 20px;
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
